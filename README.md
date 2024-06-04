@@ -15,7 +15,7 @@ This project aims to enhance the security of Internet of Things (IoT) networks t
 
 ## Data Sources
 
-The datasets consist of .csv files for four different routing attacks targeting the RPL protocol, collected via the Contiki network simulator (Cooja). These include the Blackhole Attack, Flooding Attack, DODAG Version Number Attack, and Decreased Rank Attack. This dataset was obtained from the IEEEDataPort. In this repo, we will show work done on the ranking dataset only. 
+The datasets consist of .csv files for four different routing attacks targeting the RPL protocol, collected via the Contiki network simulator (Cooja). These include the Blackhole Attack, Flooding Attack, DODAG Version Number Attack, and Decreased Rank Attack. This dataset was obtained from the IEEEDataPort. In this repo, we will show work done on the ranking dataset only. The multi-class will not be shown.
 
 ## Models Used
 
@@ -35,6 +35,11 @@ The datasets consist of .csv files for four different routing attacks targeting 
 ### Binary Classification
 
 Models such as Logistic Regression, Decision Trees, and KNN were employed to predict whether an attack was present based on features extracted from the network traffic.
+
+### Multi-Classification
+
+Advanced models like XGBoost and Random Forest were used to classify the type of attack, demonstrating high accuracy and robustness in detecting sophisticated threats.
+
 
 ## Metrics
 
